@@ -9,6 +9,7 @@
 **竞品参考**: https://claw.direct/
 
 **线上地址**:
+- 正式域名: https://claw360.io
 - Vercel: https://claw360.vercel.app
 - GitHub: https://github.com/FutuSHI/Claw360
 
