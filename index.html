@@ -552,6 +552,35 @@
             background: rgba(74, 222, 128, 0.1);
         }
 
+        /* Category Navigation */
+        .category-nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+        }
+
+        .category-nav a {
+            padding: 0.6rem 1.25rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            transition: all 0.15s;
+        }
+
+        .category-nav a:hover {
+            border-color: var(--accent-green);
+            color: var(--accent-green);
+        }
+
+        .category-nav a .count {
+            color: var(--accent-green);
+            font-weight: 600;
+        }
+
         /* Card Grid */
         .card-grid {
             display: grid;
@@ -1068,6 +1097,16 @@
 
     <!-- Main Content -->
     <main class="main-container">
+        <!-- Category Navigation -->
+        <nav class="category-nav">
+            <a href="/category/social.html">Social <span class="count">(9)</span></a>
+            <a href="/category/work.html">Work & Jobs <span class="count">(6)</span></a>
+            <a href="/category/games.html">Games <span class="count">(5)</span></a>
+            <a href="/category/worlds.html">3D Worlds <span class="count">(3)</span></a>
+            <a href="/category/finance.html">Finance <span class="count">(3)</span></a>
+            <a href="/category/knowledge.html">Knowledge <span class="count">(2)</span></a>
+        </nav>
+
         <!-- Card Grid -->
         <div class="card-grid">
             <!-- Moltbook -->
